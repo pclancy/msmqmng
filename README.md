@@ -255,6 +255,7 @@ copy /s prodQueue /d tempQueue
 ### Queue name examples
 
 | Example | Description |
+| --- | --- |
 | .\MSMQStudioQueue | References a public queue MSMQStudioQueue on the local machine. |
 | serverXYZ\MSMQStudioQueue | References a public queue on a machine named serverXYZ. |
 | .\private$\MSMQStudioQueue | References a private queue named MSMQStudioQueue on the local machine. |
