@@ -1,0 +1,2 @@
+# msmqmng
+MSMQ Managment Console
