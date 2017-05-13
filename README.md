@@ -1,5 +1,8 @@
 # MSMQ Managment Console
 
+Project was orignally hosted at http://msmqmngr.codeplex.com/ 
+This is a a Github fork of that project.   Original credits go to @david_alexis
+
 MSMQ Management Console is the tool that allows to run variety of simple commands on the queues locally and remotely. Couple of things that are unique about it comparing to the other tools available in the wild are export and import
  capabilities and execution of commands supplied via script file.
 
