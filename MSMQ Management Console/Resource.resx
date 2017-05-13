@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ERR_FAILEDTOCONVERTTOINT" xml:space="preserve">
+    <value>Failed to convert {0} to integer. Parameter name: {1}.</value>
+  </data>
+  <data name="ERR_FILENOTFOUND" xml:space="preserve">
+    <value>File not found: {0}</value>
+  </data>
+  <data name="ERR_QUEUEISEMPTY" xml:space="preserve">
+    <value>Unable to peek, queue is empty.</value>
+  </data>
+  <data name="ERR_UNABLETOOPENFILE" xml:space="preserve">
+    <value>Unable to open file "{0}". Internal error: {1}.</value>
+  </data>
+  <data name="ERR_UNEXPECTEDERROR" xml:space="preserve">
+    <value>Unexpected error.</value>
+  </data>
+  <data name="INFO_CMD_AVAILABILITY" xml:space="preserve">
+    <value>Availabilty matrix:</value>
+  </data>
+  <data name="INFO_CMD_COPY" xml:space="preserve">
+    <value>copy /s [source path] /d [destination path]</value>
+  </data>
+  <data name="INFO_CMD_COPYDESC" xml:space="preserve">
+    <value>Copies all messages from source queue to destination queue using default formatter.</value>
+  </data>
+  <data name="INFO_CMD_COPYEXAMPLE0" xml:space="preserve">
+    <value>copy /s .\private$\SourceQueue /d .\private$\DestinationQueue</value>
+  </data>
+  <data name="INFO_CMD_CREATE" xml:space="preserve">
+    <value>create /p [path] [optional:/t]</value>
+  </data>
+  <data name="INFO_CMD_CREATEDESC" xml:space="preserve">
+    <value>Creates a transactional or non-transactional queue at the specified path.</value>
+  </data>
+  <data name="INFO_CMD_CREATEEXAMPLE0" xml:space="preserve">
+    <value>create /p .\private$\MSMQStudioQueue</value>
+  </data>
+  <data name="INFO_CMD_CREATEEXAMPLE1" xml:space="preserve">
+    <value>create /p .\private$\MSMQStudioQueue /t</value>
+  </data>
+  <data name="INFO_CMD_DELETE" xml:space="preserve">
+    <value>delete /p [path]</value>
+  </data>
+  <data name="INFO_CMD_DELETEDESC" xml:space="preserve">
+    <value>Deletes queue referenced by path.</value>
+  </data>
+  <data name="INFO_CMD_DELETEEXAMPLE0" xml:space="preserve">
+    <value>delete /p .\private$\MSMQStudioQueue</value>
+  </data>
+  <data name="INFO_CMD_EXAMPLE" xml:space="preserve">
+    <value>Examples:</value>
+  </data>
+  <data name="INFO_CMD_EXPORT" xml:space="preserve">
+    <value>export /p [path] [optional:/f [filename]]</value>
+  </data>
+  <data name="INFO_CMD_EXPORTDESC" xml:space="preserve">
+    <value>Exports all messages from source queue to destination file. If name of the file was not provided msmqmng will create new file with the name equal to the queue name adding '.xml' extension. Export command does NOT remove messages from the queue.</value>
+  </data>
+  <data name="INFO_CMD_EXPORTEXAMPLE0" xml:space="preserve">
+    <value>export /p .\private$\MSMQStudioQueue</value>
+  </data>
+  <data name="INFO_CMD_EXPORTEXAMPLE1" xml:space="preserve">
+    <value>export /p .\private$\MSMQStudioQueue /f C:\QueueData\msmqexport.xml</value>
+  </data>
+  <data name="INFO_CMD_EXTRACT" xml:space="preserve">
+    <value>extract /p [path] [optional:/f [filename]]</value>
+  </data>
+  <data name="INFO_CMD_EXTRACTDESC" xml:space="preserve">
+    <value>Exports all messages from source queue to destination file and removes the messages from the queue. If name of the file was not provided msmqmng will create new file with the name equal to the queue name adding '.xml' extension.</value>
+  </data>
+  <data name="INFO_CMD_EXTRACTEXAMPLE0" xml:space="preserve">
+    <value>extract /p .\private$\MSMQStudioQueue</value>
+  </data>
+  <data name="INFO_CMD_EXTRACTEXAMPLE1" xml:space="preserve">
+    <value>extract /p .\private$\MSMQStudioQueue /f C:\QueueData\msmqexport.xml</value>
+  </data>
+  <data name="INFO_CMD_IMPORT" xml:space="preserve">
+    <value>import /p [path] [optional:/f [filename]]</value>
+  </data>
+  <data name="INFO_CMD_IMPORTDESC" xml:space="preserve">
+    <value>Imports all messages from source file to destination queue. If name of the file was not provided msmqmng will search current folder for the file named equally to the queue name with '.xml' extension.</value>
+  </data>
+  <data name="INFO_CMD_IMPORTEXAMPLE0" xml:space="preserve">
+    <value>import /p .\private$\MSMQStudioQueue</value>
+  </data>
+  <data name="INFO_CMD_IMPORTEXAMPLE1" xml:space="preserve">
+    <value>import /p .\private$\MSMQStudioQueue /f C:\QueueData\msmqexport.xml</value>
+  </data>
+  <data name="INFO_CMD_LIST" xml:space="preserve">
+    <value>list [optional:/h [host]] [optional:/u [domain\username]] [optional:/p [password]]</value>
+  </data>
+  <data name="INFO_CMD_LISTDESC" xml:space="preserve">
+    <value>Displays list of public queues on the specified host. If host is not provided displays queues for the local machine. If remote host requires different set of credential they can be provided with /u and /p.</value>
+  </data>
+  <data name="INFO_CMD_LISTEXAMPLE0" xml:space="preserve">
+    <value>list</value>
+  </data>
+  <data name="INFO_CMD_LISTEXAMPLE1" xml:space="preserve">
+    <value>list /h remotehost</value>
+  </data>
+  <data name="INFO_CMD_LISTEXAMPLE2" xml:space="preserve">
+    <value>list /h remotehost /u workgroup\jdoe /p SuCCeSS$1M!</value>
+  </data>
+  <data name="INFO_CMD_NOTES" xml:space="preserve">
+    <value>Notes:
+* If working with private local queues, short version of fully qualified name can be used, for example:
+	instead of: 
+		copy /s .\private$\sourceQueue /d .\private$\destinationQueue, or
+		send /p .\private$\dQueue /m text
+	commands can be run as following:
+		copy /s sourceQueue /d destinationQueue
+		send /p dQueue /m text
+
+
+* Local and remote queue names can be specified as following:  
+	.\MSMQStudioQueue
+		References a public queue MSMQStudioQueue on the local machine.
+	serverXYZ\MSMQStudioQueue  
+		References a public queue on a machine named serverXYZ.
+	.\private$\MSMQStudioQueue 
+		References a private queue named MSMQStudioQueue on the local machine.  
+	serverXYZ\private$\MSMQStudioQueue
+		References a private queue named MSMQStudioQueue on a machine named serverXYZ.
+	Formatname:DIRECT=OS:.\MSMQStudioQueue
+		References a public queue named MSMQStudioQueue on the local machine.  
+	Formatname:DIRECT=OS:server01\MSMQStudioQueue
+		References a public queue named MSMQStudioQueue on a machine named server01.  
+	Formatname:DIRECT=TCP:127.0.0.1\private$\MSMQStudioQueue
+		References a private queue named MSMQStudioQueue on the local machine.</value>
+  </data>
+  <data name="INFO_CMD_PEEK" xml:space="preserve">
+    <value>peek /p [path] [optional: /c [count]]</value>
+  </data>
+  <data name="INFO_CMD_PEEKDESC" xml:space="preserve">
+    <value>Displays body of the [count] messages referenced by [path], does not remove messages from the queue. Operation stops when either end of queue or [count] were reached. If count was not specified displays ALL messages in the queue.</value>
+  </data>
+  <data name="INFO_CMD_PEEKEXAMPLE0" xml:space="preserve">
+    <value>peek /p .\private$\MSMQStudioQueue /c 5</value>
+  </data>
+  <data name="INFO_CMD_PEEKEXAMPLE1" xml:space="preserve">
+    <value>peek /p FormatName:Direct=TCP:127.0.0.1\private$\MSMQStudioQueue</value>
+  </data>
+  <data name="INFO_CMD_PURGE" xml:space="preserve">
+    <value>purge /p [path]</value>
+  </data>
+  <data name="INFO_CMD_PURGEDESC" xml:space="preserve">
+    <value>Removes ALL messages from the queue referenced by path. Does not ask for confirmation.</value>
+  </data>
+  <data name="INFO_CMD_PURGEEXAMPLE0" xml:space="preserve">
+    <value>purge /p .\private$\MSMQStudioQueue</value>
+  </data>
+  <data name="INFO_CMD_SEND" xml:space="preserve">
+    <value>send /p [path] [opitonal: /c [count]] [/m [message] |  /f [filepath]]</value>
+  </data>
+  <data name="INFO_CMD_SENDDESC" xml:space="preserve">
+    <value>Sends message in the queue referenced by path. With either text entered after "/m" or read from file referenced by filepath. Double quote escaping is not supported at this time. For file "/f" version of command entire file will be sent. If /c parameter was provided message duplicated count times.</value>
+  </data>
+  <data name="INFO_CMD_SENDEXAMPLE0" xml:space="preserve">
+    <value>send /p .\private$\MSMQStudioQueue /m "the text to be sent"</value>
+  </data>
+  <data name="INFO_CMD_SENDEXAMPLE1" xml:space="preserve">
+    <value>send /p .\private$\MSMQStudioQueue /f \\folder01\file01.ext</value>
+  </data>
+  <data name="INFO_CMD_SENDEXAMPLE2" xml:space="preserve">
+    <value>send /p .\public$\MSMQStudioQueue /c 5 /f X:\folder01\file01.ext</value>
+  </data>
+  <data name="INFO_COMMANDCACHEISEMPTY" xml:space="preserve">
+    <value>Command cache is empty.</value>
+  </data>
+  <data name="INFO_ENDOFBATCHFILE" xml:space="preserve">
+    <value>End of batch file.</value>
+  </data>
+  <data name="INFO_INVALID_COMMNAD" xml:space="preserve">
+    <value>Command '{0}' is invalid or no help available for the command.</value>
+  </data>
+  <data name="INFO_LAUNCHINFO" xml:space="preserve">
+    <value>MSMQ Management Console {0}</value>
+  </data>
+  <data name="WARN_FAILEDTOPARSE" xml:space="preserve">
+    <value>Failed to parse command {0}, from command file: {1}. Ingnoring file instruction, none will be executed.</value>
+  </data>
+  <data name="WARN_PARAM_ISMISSING" xml:space="preserve">
+    <value>Required parameter '{0}' is missing.</value>
+  </data>
+  <data name="WARN_PARAM_VALUEISMISSING" xml:space="preserve">
+    <value>Value for the parameter {0} is missing.</value>
+  </data>
+</root>

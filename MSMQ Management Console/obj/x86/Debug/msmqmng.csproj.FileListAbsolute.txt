@@ -1,0 +1,12 @@
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\bin\Debug\msmqmng.exe.config
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\bin\Debug\msmqmng.exe
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\bin\Debug\msmqmng.pdb
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\bin\Debug\msmqmng.exe.CodeAnalysisLog.xml
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\bin\Debug\msmqmng.exe.lastcodeanalysissucceeded
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\bin\Debug\CoreServices.dll
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\bin\Debug\CoreServices.pdb
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\obj\x86\Debug\msmqmng.csprojResolveAssemblyReference.cache
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\obj\x86\Debug\MSMQManagementConsole.Resource.resources
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\obj\x86\Debug\msmqmng.csproj.GenerateResource.Cache
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\obj\x86\Debug\msmqmng.exe
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\obj\x86\Debug\msmqmng.pdb

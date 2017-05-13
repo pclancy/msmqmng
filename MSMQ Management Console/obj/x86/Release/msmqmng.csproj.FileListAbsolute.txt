@@ -1,0 +1,10 @@
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\bin\Release\msmqmng.exe.config
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\bin\Release\msmqmng.exe
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\bin\Release\msmqmng.pdb
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\bin\Release\CoreServices.dll
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\bin\Release\CoreServices.pdb
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\obj\x86\Release\msmqmng.csprojResolveAssemblyReference.cache
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\obj\x86\Release\MSMQManagementConsole.Resource.resources
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\obj\x86\Release\msmqmng.csproj.GenerateResource.Cache
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\obj\x86\Release\msmqmng.exe
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\MSMQ Management Console\obj\x86\Release\msmqmng.pdb

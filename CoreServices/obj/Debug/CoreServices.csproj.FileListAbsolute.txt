@@ -1,0 +1,7 @@
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\CoreServices\bin\Debug\CoreServices.dll
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\CoreServices\bin\Debug\CoreServices.pdb
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\CoreServices\obj\Debug\CoreServices.csprojResolveAssemblyReference.cache
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\CoreServices\obj\Debug\CoreServices.Resource.resources
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\CoreServices\obj\Debug\CoreServices.csproj.GenerateResource.Cache
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\CoreServices\obj\Debug\CoreServices.dll
+C:\Users\paul\Downloads\msmqmngr-20813\MSMQ Management Console\CoreServices\obj\Debug\CoreServices.pdb
