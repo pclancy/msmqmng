@@ -1,5 +1,43 @@
-# msmqmng
-MSMQ Managment Console
+# MSMQ Managment Console
+
+MSMQ Management Console is the tool that allows to run variety of simple commands on the queues locally and remotely. Couple of things that are unique about it comparing to the other tools available in the wild are export and import
+ capabilities and execution of commands supplied via script file.
+
+## Features
+
+* [create](http://msmqmngr.codeplex.com/documentation?referringTitle=Home&ANCHOR#createcommand),
+[delete](http://msmqmngr.codeplex.com/documentation?referringTitle=Home&ANCHOR#deletecommand),[purge](http://msmqmngr.codeplex.com/documentation?referringTitle=Home&ANCHOR#purgecommand) queues
+* [send](http://msmqmngr.codeplex.com/documentation?referringTitle=Home&ANCHOR#sendcommand) message(s) to the queue supplied either via command line or available from file
+* [copy](http://msmqmngr.codeplex.com/documentation?referringTitle=Home&ANCHOR#copycommand) messages between queues
+* [export](http://msmqmngr.codeplex.com/documentation?referringTitle=Home&ANCHOR#exportcommand) and
+[import](http://msmqmngr.codeplex.com/documentation?referringTitle=Home&ANCHOR#importcommand) messages from the queue to the file and back
+* [list](http://msmqmngr.codeplex.com/documentation?referringTitle=Home&ANCHOR#listcommand) queues available locally and remotely along with message count in each queue
+* [print](http://msmqmngr.codeplex.com/documentation?referringTitle=Home&ANCHOR#peekcommand) to console content of messages the queue
+* [run commands in batches](http://msmqmngr.codeplex.com/documentation?referringTitle=Home&ANCHOR#loadcommand) read from the script file
+
+## Getting Started Guide
+
+There are two modes the tool works in, interactive and classic command line mode when it executes a command and exists. See examples below:
+
+### Interactive mode
+
+Just start msmqmng.exe after downloading and you will see tool's command line invite where you can enter commands. Start with "list" to display list of local private queues.<br>
+<br>
+![interactivemode.png](https://github.com/pclancy/msmqmng/raw/master/docs/interactivemode.png "interactivemode.png")
+
+### Classic mode
+
+This mode was added with scheduling in mind, say you need to run specific set of commands every 5 minutes, you would just schedule windows task with 5 minutes timeout and have it run msmqmng.exe with the command you would like to be executed.
+This is exactly where load command will come handy, just have it read your batch file every time the tool runs.
+
+On the screenshot commands are loaded from file cmd.txt, with following content<br>
+
+```
+send /p test1 /f \\psf\Home\Desktop\msmqmng\smsmessage /c 10
+```
+![classicmode.png](https://github.com/pclancy/msmqmng/raw/master/docs/classicmode.png "classicmode.png")
+
+## Details and Examples
 
 Most of information available here also available in the tool itself (type '?' when in command mode) although it is a little less readable.
 
